@@ -1,6 +1,10 @@
-!pip -qq install pyspark
-!pip -qq install handyspark
-!wget -qq https://cdn.iisc.talentsprint.com/CDS/MiniProjects/US_Airline_Tweets.csv
+import os
+
+os.run("pip -qq install pyspark")
+os.run("pip -qq install handyspark")
+os.run("wget -qq https://cdn.iisc.talentsprint.com/CDS/MiniProjects/US_Airline_Tweets.csv")
+    
+    
 st.write("Packages installed successfully and dataset downloaded!!")
 
 from pyspark.sql import SparkSession
