@@ -6,7 +6,7 @@ def main():
 	#st.subheader("Yeah... trying Mini project")
 	menu = ["Remote Identity Verification","onboarding"]
 	choice = st.sidebar.selectbox('Menu',menu)
-	if choice == 'Home':
-		st.subheader("Tweet Sentiment Analysis")	
+	if choice == 'onboarding':
+		st.subheader("Onboarding Initiation")	
 if __name__ == '__main__':
 	main()
