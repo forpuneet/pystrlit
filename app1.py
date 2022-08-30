@@ -8,5 +8,8 @@ def main():
 	choice = st.sidebar.selectbox('Menu',menu)
 	if choice == 'onboarding':
 		st.subheader("Onboarding Initiation")	
+		picture = st.camera_input("Take a picture")
+		if picture:
+     			st.image(picture)
 if __name__ == '__main__':
 	main()
