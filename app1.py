@@ -1,6 +1,5 @@
 import streamlit as st
-import cv2
-import numpy as np
+
 
 
 PAGE_CONFIG = {"page_title":"StColab.io","page_icon":":smiley:","layout":"centered"}
